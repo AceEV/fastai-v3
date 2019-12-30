@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-1A29c-ryKF3cV_LnWvIFDQUJL_MOhB0'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Artichoke', 'Arugula', 'Asparagus', 'Avocado', 'Baby Carrot', 'Beet', 'Bell pepper', 'Black Beans', 'Broccoli', 'Brussels sprout', 'Cabbage', 'Carrot', 'Cauliflower', 'Celery', 'Chives', 'Corn', 'Cucumber', 'Edamame', 'Eggplant', 'Garlic', 'Ginger', 'Green bean', 'Green bell pepper', 'Habanero chili', 'JalapeÃ±o', 'Kale', 'Leek', 'Lettuce', 'Lima Bean', 'Mushroom', 'Olives', 'Onion', 'Parsnip', 'Pea', 'Pinto Beans', 'Potato', 'Pumpkin', 'Radish', 'Red Cabbage', 'Red bell pepper', 'Red onion', 'Romaine lettuce', 'Snap pea', 'Spinach', 'Squash', 'Turnip', 'Yams', 'Yellow onion', 'Zucchini']
 path = Path(__file__).parent
 
 app = Starlette()
